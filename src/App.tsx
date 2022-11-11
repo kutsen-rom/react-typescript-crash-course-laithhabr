@@ -37,7 +37,7 @@ function App() {
       <AddToList people={people} setPeople={setPeople} />
       <p id="par" className="whitespace-pre"></p>
       <div className="h-64 w-[400px] overflow-hidden rounded">
-      <img src={`https://maps.googleapis.com/maps/api/staticmap?center=40.714%2c%20-74.998&zoom=12&size=400x300&key=${apiKey}&map_id=${mapID}`} />
+      <img alt="dawd" src={`https://maps.googleapis.com/maps/api/staticmap?center=40.714%2c%20-74.998&zoom=12&size=400x300&key=${apiKey}&map_id=${mapID}`} />
       </div>
     </div>
   );

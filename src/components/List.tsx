@@ -6,7 +6,7 @@ export const List: React.FC<IProps> = ({ people }) => {
       return (
         <div>
           <h2>{person.name}</h2>
-          <img src={person.img} />
+          <img alt="dawd" src={person.img} />
           <p>{person.age} years old</p>
           <p>{person.note}</p>
         </div>
